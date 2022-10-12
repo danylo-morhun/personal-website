@@ -13,6 +13,7 @@ section {
 a {
     color: #1B262C;
     text-decoration: none;
+    
 }
 
 .container {
@@ -30,9 +31,7 @@ header {
     margin-top: 15px;
 }
 
-.card__background:hover {
-    transform: scale(1.02);
-}
+
 
 .fdev {
     font-weight: 400;
@@ -112,4 +111,15 @@ h2 {
 
 .info__title {
     margin-top: 32px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline 2px rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+a:hover {
+    text-decoration-color: #1B262C;
+    font-weight: 500;
 }
